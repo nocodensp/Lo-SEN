@@ -2844,6 +2844,198 @@ a.cta-secondary:hover {
     }
 }
 
+/* ========================================
+   Mobile Responsive (576px)
+   ======================================== */
+.overflow-hidden {
+    overflow: hidden !important;
+}
+
+@media (max-width: 576px) {
+    /* Pourquoi Section */
+    .pourquoi {
+        padding: 4rem 1rem;
+    }
+    
+    .pourquoi-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .card-content {
+        padding: 1.5rem;
+    }
+    
+    .pourquoi-card h3 {
+        font-size: 1.2rem;
+    }
+    
+    .card-illustration {
+        height: 160px;
+    }
+    
+    .illustration-img {
+        width: 140px;
+        height: 140px;
+    }
+    
+    /* Technologies Section */
+    .technologies {
+        padding: 4rem 1rem;
+    }
+    
+    .tech-step {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 1rem;
+        padding: 1.5rem;
+    }
+    
+    .step-number {
+        margin: 0 auto;
+    }
+    
+    .step-specs {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    
+    .tech-comparison {
+        padding: 1.5rem;
+    }
+    
+    .tech-comparison h3 {
+        font-size: 1.1rem;
+    }
+    
+    /* Impact Section */
+    .impact {
+        padding: 4rem 1rem;
+    }
+    
+    .impact-stats {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .impact-card {
+        padding: 1.5rem;
+    }
+    
+    .impact-number {
+        font-size: 2rem;
+    }
+    
+    .impact-label {
+        font-size: 0.9rem;
+    }
+    
+    .impact-message {
+        padding: 1.5rem;
+    }
+    
+    .impact-features {
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    
+    /* Avis Section */
+    .avis {
+        padding: 4rem 1rem;
+    }
+    
+    .testimonial-card {
+        padding: 1.5rem;
+    }
+    
+    .testimonial-text {
+        font-size: 0.9rem;
+    }
+    
+    .testimonial-author img {
+        width: 40px;
+        height: 40px;
+    }
+    
+    .testimonials-nav {
+        gap: 0.75rem;
+    }
+    
+    .nav-btn {
+        width: 42px;
+        height: 42px;
+    }
+    
+    .nav-btn img {
+        width: 16px;
+        height: 16px;
+    }
+    
+    /* Solutions Section */
+    .solutions {
+        padding: 4rem 1rem;
+    }
+    
+    .solutions-grid {
+        grid-template-columns: 1fr;
+        gap: 1.5rem;
+    }
+    
+    .solution-content {
+        padding: 1.5rem;
+    }
+    
+    .solution-image {
+        height: 200px;
+    }
+    
+    .solution-features li {
+        font-size: 0.9rem;
+    }
+    
+    /* Professionnels Section */
+    .professionnels {
+        padding: 4rem 1rem;
+    }
+    
+    .pro-sectors {
+        grid-template-columns: 1fr;
+        gap: 1rem;
+    }
+    
+    .sector-card {
+        padding: 1.5rem;
+    }
+    
+    .sector-icon {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .sector-icon img {
+        width: 30px;
+        height: 30px;
+    }
+    
+    .pro-cta {
+        padding: 2rem 1.5rem;
+    }
+    
+    /* Section headers general */
+    .section-header {
+        padding: 0 0 2rem;
+    }
+    
+    .section-title {
+        font-size: 1.75rem;
+    }
+    
+    .section-subtitle {
+        font-size: 0.95rem;
+    }
+}
+
 /* Responsive Design Premium Hero */
 @media (max-width: 1024px) {
     .hero-grid {
