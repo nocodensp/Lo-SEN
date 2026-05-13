@@ -18,7 +18,8 @@
     <meta property="og:url" content="">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="assets/icons/favicon.ico">
+    <link rel="icon" type="image/svg+xml" href="assets/icons/favicon.svg">
+    <link rel="alternate icon" href="assets/icons/favicon.ico">
     
     <!-- Google Fonts - Poppins -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -53,7 +54,7 @@
             </div>
             
             <div class="nav-actions">
-                <a href="https://wa.me/33612345678?text=Bonjour%20LO-SEN,%20je%20souhaite%20en%20savoir%20plus" 
+                <a href="https://wa.me/33616144538?text=Bonjour%20LO-SEN,%20je%20souhaite%20en%20savoir%20plus" 
                    class="btn-whatsapp-premium" target="_blank" rel="noopener noreferrer">
                     <img src="assets/icons/whatsapp.svg" alt="" class="whatsapp-icon" width="16" height="16">
                     WhatsApp

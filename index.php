@@ -42,7 +42,7 @@ require_once 'includes/header.php';
                 </div>
                 
                 <div class="hero-actions">
-                    <a href="https://wa.me/33612345678?text=Bonjour%20LO-SEN,%20je%20souhaite%20parler%20à%20un%20expert" 
+                    <a href="https://wa.me/33616144538?text=Bonjour%20LO-SEN,%20je%20souhaite%20parler%20à%20un%20expert" 
                        class="btn-primary" target="_blank" rel="noopener noreferrer">
                         <img src="assets/icons/whatsapp.svg" alt="WhatsApp" class="btn-icon">
                         Parler à un Expert
@@ -404,248 +404,190 @@ require_once 'includes/header.php';
 </section>
 
 <!-- Nos Solutions Section -->
-<section class="solutions-premium" id="solutions" style="background: linear-gradient(135deg, #ffffff 0%, #f8fafc 50%, #f1f5f9 100%); padding: 100px 40px;">
+<section class="solutions-premium" id="solutions">
     <div class="solutions-container">
-        <!-- Section Header -->
-        <div class="solutions-hero" style="text-align: center; margin-bottom: 80px;">
-            <div class="hero-badge" style="display: inline-block; padding: 12px 24px; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-radius: 999px; color: #1e40af; font-size: 14px; font-weight: 700; letter-spacing: 1px; margin-bottom: 30px; border: 1px solid rgba(59, 130, 246, 0.2);">
-                💧 NOS SOLUTIONS
-            </div>
-            <h2 class="solutions-title" style="font-size: 56px; font-weight: 900; color: #0f172a; margin-bottom: 20px; line-height: 1.1; letter-spacing: -0.02em;">
-                L'eau pure<span class="accent" style="color: #3b82f6;">.</span> Pour chaque besoin
-            </h2>
-            <p class="solutions-subtitle" style="font-size: 20px; line-height: 1.6; color: #64748b; max-width: 600px; margin: 0 auto;">
-                Des technologies de filtration avancées adaptées à votre usage
-            </p>
+        <div class="solutions-hero">
+            <div class="hero-badge">💧 NOS SOLUTIONS</div>
+            <h2 class="solutions-title">L'eau pure<span class="accent">.</span> Pour chaque besoin</h2>
+            <p class="solutions-subtitle">Des technologies de filtration avancées adaptées à votre usage</p>
         </div>
 
-        <!-- Solutions Grid -->
-        <div class="solutions-grid-premium" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 40px; margin-bottom: 80px;">
+        <div class="solutions-grid-premium">
             <!-- Horizon Card -->
-            <div class="solution-premium-card" style="background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08); overflow: hidden; transition: transform 0.4s ease, box-shadow 0.4s ease; position: relative;">
-                <div class="card-visual" style="position: relative; height: 280px; overflow: hidden;">
-                    <div class="product-image" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);">
-                        <img src="assets/images/horizon-product.png" alt="LO-SEN Horizon" style="max-width: 80%; max-height: 80%; object-fit: contain; transition: transform 0.4s ease;">
+            <div class="solution-premium-card">
+                <div class="card-visual">
+                    <div class="product-image">
+                        <img src="assets/images/horizon-product.svg" alt="LO-SEN Horizon">
                     </div>
-                    <div class="product-badge bestseller" style="position: absolute; top: 20px; right: 20px; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 700; display: flex; align-items: center; gap: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); background: linear-gradient(135deg, #f59e0b 0%, #d97706 100%); color: white;">
+                    <div class="product-badge bestseller">
                         <span class="badge-icon">⭐</span>
                         <span class="badge-text">Best-seller</span>
                     </div>
                 </div>
                 
-                <div class="card-content" style="padding: 32px;">
-                    <div class="card-header" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
-                        <h3 class="product-name" style="font-size: 28px; font-weight: 800; color: #0f172a; margin: 0;">Horizon</h3>
-                        <div class="product-category" style="font-size: 14px; font-weight: 600; color: #64748b; background: #f1f5f9; padding: 6px 12px; border-radius: 12px;">Particuliers</div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <h3 class="product-name">Horizon</h3>
+                        <div class="product-category">Particuliers</div>
                     </div>
                     
-                    <p class="product-description" style="font-size: 16px; line-height: 1.6; color: #64748b; margin-bottom: 24px;">
-                        Solution compacte et performante pour un usage quotidien. Installation sous-évier discrète avec une production continue de 50L/h.
-                    </p>
+                    <p class="product-description">Solution compacte et performante pour un usage quotidien. Installation sous-évier discrète avec une production continue de 50L/h.</p>
                     
-                    <div class="product-specs" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px;">
-                        <div class="spec-item" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #f8fafc; border-radius: 16px; transition: background 0.3s ease;">
-                            <div class="spec-icon" style="font-size: 20px; flex-shrink: 0;">🔬</div>
-                            <div class="spec-content" style="flex: 1;">
-                                <div class="spec-label" style="font-size: 12px; font-weight: 600; color: #64748b; margin-bottom: 2px;">Filtration</div>
-                                <div class="spec-value" style="font-size: 14px; font-weight: 700; color: #0f172a;">4 étages</div>
+                    <div class="product-specs">
+                        <div class="spec-item">
+                            <div class="spec-icon">🔬</div>
+                            <div class="spec-content">
+                                <div class="spec-label">Filtration</div>
+                                <div class="spec-value">4 étages</div>
                             </div>
                         </div>
-                        <div class="spec-item" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #f8fafc; border-radius: 16px; transition: background 0.3s ease;">
-                            <div class="spec-icon" style="font-size: 20px; flex-shrink: 0;">💧</div>
-                            <div class="spec-content" style="flex: 1;">
-                                <div class="spec-label" style="font-size: 12px; font-weight: 600; color: #64748b; margin-bottom: 2px;">Production</div>
-                                <div class="spec-value" style="font-size: 14px; font-weight: 700; color: #0f172a;">50L/h</div>
+                        <div class="spec-item">
+                            <div class="spec-icon">💧</div>
+                            <div class="spec-content">
+                                <div class="spec-label">Production</div>
+                                <div class="spec-value">50L/h</div>
                             </div>
                         </div>
-                        <div class="spec-item" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #f8fafc; border-radius: 16px; transition: background 0.3s ease;">
-                            <div class="spec-icon" style="font-size: 20px; flex-shrink: 0;">🔧</div>
-                            <div class="spec-content" style="flex: 1;">
-                                <div class="spec-label" style="font-size: 12px; font-weight: 600; color: #64748b; margin-bottom: 2px;">Installation</div>
-                                <div class="spec-value" style="font-size: 14px; font-weight: 700; color: #0f172a;">Sous-évier</div>
+                        <div class="spec-item">
+                            <div class="spec-icon">🔧</div>
+                            <div class="spec-content">
+                                <div class="spec-label">Installation</div>
+                                <div class="spec-value">Sous-évier</div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="product-features" style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px;">
-                        <div class="feature-item" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: #64748b;">
-                            <span class="feature-icon" style="width: 20px; height: 20px; background: #10b981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">✓</span>
-                            <span>Eau pure instantanée</span>
-                        </div>
-                        <div class="feature-item" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: #64748b;">
-                            <span class="feature-icon" style="width: 20px; height: 20px; background: #10b981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">✓</span>
-                            <span>Installation simple</span>
-                        </div>
-                        <div class="feature-item" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: #64748b;">
-                            <span class="feature-icon" style="width: 20px; height: 20px; background: #10b981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">✓</span>
-                            <span>Maintenance 2 ans</span>
                         </div>
                     </div>
                     
-                    <div class="card-actions" style="display: flex; justify-content: center;">
-                        <a href="https://wa.me/33612345678?text=Bonjour%20LO-SEN,%20je%20souhaite%20un%20devis%20pour%20Horizon" 
-                           class="btn-solution primary" target="_blank" style="padding: 14px 32px; border-radius: 12px; font-size: 14px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);">
-                            <span class="btn-icon" style="font-size: 16px;">💬</span>
-                            Demander un devis
-                        </a>
+                    <div class="product-features">
+                        <div class="feature-item"><span class="feature-icon">✓</span><span>Eau pure instantanée</span></div>
+                        <div class="feature-item"><span class="feature-icon">✓</span><span>Installation simple</span></div>
+                        <div class="feature-item"><span class="feature-icon">✓</span><span>Maintenance 2 ans</span></div>
+                    </div>
+                    
+                    <div class="card-actions">
+                        <a href="https://wa.me/33616144538?text=Bonjour%20LO-SEN,%20je%20souhaite%20un%20devis%20pour%20Horizon" class="btn-solution primary" target="_blank"><span class="btn-icon">💬</span>Demander un devis</a>
                     </div>
                 </div>
             </div>
 
             <!-- Aquila Pro Card -->
-            <div class="solution-premium-card featured" style="background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08); overflow: hidden; transition: transform 0.4s ease, box-shadow 0.4s ease; position: relative; border: 2px solid #3b82f6; transform: scale(1.02);">
-                <div class="card-visual" style="position: relative; height: 280px; overflow: hidden;">
-                    <div class="product-image" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);">
-                        <img src="assets/images/aquila-pro-product.png" alt="LO-SEN Aquila Pro" style="max-width: 80%; max-height: 80%; object-fit: contain; transition: transform 0.4s ease;">
+            <div class="solution-premium-card featured">
+                <div class="card-visual">
+                    <div class="product-image">
+                        <img src="assets/images/aquila-pro-product.svg" alt="LO-SEN Aquila Pro">
                     </div>
-                    <div class="product-badge premium" style="position: absolute; top: 20px; right: 20px; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 700; display: flex; align-items: center; gap: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); background: linear-gradient(135deg, #8b5cf6 0%, #7c3aed 100%); color: white;">
+                    <div class="product-badge premium">
                         <span class="badge-icon">👑</span>
                         <span class="badge-text">Premium</span>
                     </div>
                 </div>
                 
-                <div class="card-content" style="padding: 32px;">
-                    <div class="card-header" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
-                        <h3 class="product-name" style="font-size: 28px; font-weight: 800; color: #0f172a; margin: 0;">Aquila Pro</h3>
-                        <div class="product-category" style="font-size: 14px; font-weight: 600; color: #64748b; background: #f1f5f9; padding: 6px 12px; border-radius: 12px;">Familles</div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <h3 class="product-name">Aquila Pro</h3>
+                        <div class="product-category">Familles</div>
                     </div>
                     
-                    <p class="product-description" style="font-size: 16px; line-height: 1.6; color: #64748b; margin-bottom: 24px;">
-                        Solution professionnelle idéale pour les familles. Production élevée de 150L/h avec réservoir intégré de 12L pour une disponibilité permanente.
-                    </p>
+                    <p class="product-description">Solution professionnelle idéale pour les familles. Production élevée de 150L/h avec réservoir intégré de 12L pour une disponibilité permanente.</p>
                     
-                    <div class="product-specs" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px;">
-                        <div class="spec-item" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #f8fafc; border-radius: 16px; transition: background 0.3s ease;">
-                            <div class="spec-icon" style="font-size: 20px; flex-shrink: 0;">🔬</div>
-                            <div class="spec-content" style="flex: 1;">
-                                <div class="spec-label" style="font-size: 12px; font-weight: 600; color: #64748b; margin-bottom: 2px;">Filtration</div>
-                                <div class="spec-value" style="font-size: 14px; font-weight: 700; color: #0f172a;">5 étages</div>
+                    <div class="product-specs">
+                        <div class="spec-item">
+                            <div class="spec-icon">🔬</div>
+                            <div class="spec-content">
+                                <div class="spec-label">Filtration</div>
+                                <div class="spec-value">5 étages</div>
                             </div>
                         </div>
-                        <div class="spec-item" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #f8fafc; border-radius: 16px; transition: background 0.3s ease;">
-                            <div class="spec-icon" style="font-size: 20px; flex-shrink: 0;">💧</div>
-                            <div class="spec-content" style="flex: 1;">
-                                <div class="spec-label" style="font-size: 12px; font-weight: 600; color: #64748b; margin-bottom: 2px;">Production</div>
-                                <div class="spec-value" style="font-size: 14px; font-weight: 700; color: #0f172a;">150L/h</div>
+                        <div class="spec-item">
+                            <div class="spec-icon">💧</div>
+                            <div class="spec-content">
+                                <div class="spec-label">Production</div>
+                                <div class="spec-value">150L/h</div>
                             </div>
                         </div>
-                        <div class="spec-item" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #f8fafc; border-radius: 16px; transition: background 0.3s ease;">
-                            <div class="spec-icon" style="font-size: 20px; flex-shrink: 0;">🏺</div>
-                            <div class="spec-content" style="flex: 1;">
-                                <div class="spec-label" style="font-size: 12px; font-weight: 600; color: #64748b; margin-bottom: 2px;">Réservoir</div>
-                                <div class="spec-value" style="font-size: 14px; font-weight: 700; color: #0f172a;">12L intégré</div>
+                        <div class="spec-item">
+                            <div class="spec-icon">🏺</div>
+                            <div class="spec-content">
+                                <div class="spec-label">Réservoir</div>
+                                <div class="spec-value">12L intégré</div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="product-features" style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px;">
-                        <div class="feature-item" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: #64748b;">
-                            <span class="feature-icon" style="width: 20px; height: 20px; background: #10b981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">✓</span>
-                            <span>Minéralisation contrôlée</span>
-                        </div>
-                        <div class="feature-item" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: #64748b;">
-                            <span class="feature-icon" style="width: 20px; height: 20px; background: #10b981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">✓</span>
-                            <span>Réservoir intégré</span>
-                        </div>
-                        <div class="feature-item" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: #64748b;">
-                            <span class="feature-icon" style="width: 20px; height: 20px; background: #10b981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">✓</span>
-                            <span>Installation flexible</span>
                         </div>
                     </div>
                     
-                    <div class="card-actions" style="display: flex; justify-content: center;">
-                        <a href="https://wa.me/33612345678?text=Bonjour%20LO-SEN,%20je%20souhaite%20un%20devis%20pour%20Aquila%20Pro" 
-                           class="btn-solution primary" target="_blank" style="padding: 14px 32px; border-radius: 12px; font-size: 14px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);">
-                            <span class="btn-icon" style="font-size: 16px;">💬</span>
-                            Demander un devis
-                        </a>
+                    <div class="product-features">
+                        <div class="feature-item"><span class="feature-icon">✓</span><span>Minéralisation contrôlée</span></div>
+                        <div class="feature-item"><span class="feature-icon">✓</span><span>Réservoir intégré</span></div>
+                        <div class="feature-item"><span class="feature-icon">✓</span><span>Installation flexible</span></div>
+                    </div>
+                    
+                    <div class="card-actions">
+                        <a href="https://wa.me/33616144538?text=Bonjour%20LO-SEN,%20je%20souhaite%20un%20devis%20pour%20Aquila%20Pro" class="btn-solution primary" target="_blank"><span class="btn-icon">💬</span>Demander un devis</a>
                     </div>
                 </div>
             </div>
 
             <!-- U3 Card -->
-            <div class="solution-premium-card" style="background: white; border-radius: 24px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08); overflow: hidden; transition: transform 0.4s ease, box-shadow 0.4s ease; position: relative;">
-                <div class="card-visual" style="position: relative; height: 280px; overflow: hidden;">
-                    <div class="product-image" style="width: 100%; height: 100%; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);">
-                        <img src="assets/images/u3-product.png" alt="LO-SEN U3" style="max-width: 80%; max-height: 80%; object-fit: contain; transition: transform 0.4s ease;">
+            <div class="solution-premium-card">
+                <div class="card-visual">
+                    <div class="product-image">
+                        <img src="assets/images/u3-product.svg" alt="LO-SEN U3">
                     </div>
-                    <div class="product-badge ultra" style="position: absolute; top: 20px; right: 20px; padding: 8px 16px; border-radius: 20px; font-size: 12px; font-weight: 700; display: flex; align-items: center; gap: 6px; box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15); background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%); color: white;">
+                    <div class="product-badge ultra">
                         <span class="badge-icon">🚀</span>
                         <span class="badge-text">Ultra-Performance</span>
                     </div>
                 </div>
                 
-                <div class="card-content" style="padding: 32px;">
-                    <div class="card-header" style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 16px;">
-                        <h3 class="product-name" style="font-size: 28px; font-weight: 800; color: #0f172a; margin: 0;">U3</h3>
-                        <div class="product-category" style="font-size: 14px; font-weight: 600; color: #64748b; background: #f1f5f9; padding: 6px 12px; border-radius: 12px;">Professionnels</div>
+                <div class="card-content">
+                    <div class="card-header">
+                        <h3 class="product-name">U3</h3>
+                        <div class="product-category">Professionnels</div>
                     </div>
                     
-                    <p class="product-description" style="font-size: 16px; line-height: 1.6; color: #64748b; margin-bottom: 24px;">
-                        Solution industrielle de pointe pour les professionnels. Production massive de 500L/h avec connectivité IoT et maintenance prédictive.
-                    </p>
+                    <p class="product-description">Solution industrielle de pointe pour les professionnels. Production massive de 500L/h avec connectivité IoT et maintenance prédictive.</p>
                     
-                    <div class="product-specs" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; margin-bottom: 24px;">
-                        <div class="spec-item" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #f8fafc; border-radius: 16px; transition: background 0.3s ease;">
-                            <div class="spec-icon" style="font-size: 20px; flex-shrink: 0;">🔬</div>
-                            <div class="spec-content" style="flex: 1;">
-                                <div class="spec-label" style="font-size: 12px; font-weight: 600; color: #64748b; margin-bottom: 2px;">Filtration</div>
-                                <div class="spec-value" style="font-size: 14px; font-weight: 700; color: #0f172a;">6 étages</div>
+                    <div class="product-specs">
+                        <div class="spec-item">
+                            <div class="spec-icon">🔬</div>
+                            <div class="spec-content">
+                                <div class="spec-label">Filtration</div>
+                                <div class="spec-value">6 étages</div>
                             </div>
                         </div>
-                        <div class="spec-item" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #f8fafc; border-radius: 16px; transition: background 0.3s ease;">
-                            <div class="spec-icon" style="font-size: 20px; flex-shrink: 0;">💧</div>
-                            <div class="spec-content" style="flex: 1;">
-                                <div class="spec-label" style="font-size: 12px; font-weight: 600; color: #64748b; margin-bottom: 2px;">Production</div>
-                                <div class="spec-value" style="font-size: 14px; font-weight: 700; color: #0f172a;">500L/h</div>
+                        <div class="spec-item">
+                            <div class="spec-icon">💧</div>
+                            <div class="spec-content">
+                                <div class="spec-label">Production</div>
+                                <div class="spec-value">500L/h</div>
                             </div>
                         </div>
-                        <div class="spec-item" style="display: flex; align-items: center; gap: 12px; padding: 16px; background: #f8fafc; border-radius: 16px; transition: background 0.3s ease;">
-                            <div class="spec-icon" style="font-size: 20px; flex-shrink: 0;">📡</div>
-                            <div class="spec-content" style="flex: 1;">
-                                <div class="spec-label" style="font-size: 12px; font-weight: 600; color: #64748b; margin-bottom: 2px;">Connectivité</div>
-                                <div class="spec-value" style="font-size: 14px; font-weight: 700; color: #0f172a;">IoT</div>
+                        <div class="spec-item">
+                            <div class="spec-icon">📡</div>
+                            <div class="spec-content">
+                                <div class="spec-label">Connectivité</div>
+                                <div class="spec-value">IoT</div>
                             </div>
-                        </div>
-                    </div>
-                    
-                    <div class="product-features" style="display: flex; flex-direction: column; gap: 12px; margin-bottom: 32px;">
-                        <div class="feature-item" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: #64748b;">
-                            <span class="feature-icon" style="width: 20px; height: 20px; background: #10b981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">✓</span>
-                            <span>Connectivité IoT</span>
-                        </div>
-                        <div class="feature-item" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: #64748b;">
-                            <span class="feature-icon" style="width: 20px; height: 20px; background: #10b981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">✓</span>
-                            <span>Maintenance prédictive</span>
-                        </div>
-                        <div class="feature-item" style="display: flex; align-items: center; gap: 12px; font-size: 14px; color: #64748b;">
-                            <span class="feature-icon" style="width: 20px; height: 20px; background: #10b981; color: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 12px; font-weight: bold; flex-shrink: 0;">✓</span>
-                            <span>Sur-mesure</span>
                         </div>
                     </div>
                     
-                    <div class="card-actions" style="display: flex; justify-content: center;">
-                        <a href="https://wa.me/33612345678?text=Bonjour%20LO-SEN,%20je%20souhaite%20un%20devis%20pour%20U3" 
-                           class="btn-solution primary" target="_blank" style="padding: 14px 32px; border-radius: 12px; font-size: 14px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; justify-content: center; gap: 8px; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; box-shadow: 0 8px 24px rgba(59, 130, 246, 0.3);">
-                            <span class="btn-icon" style="font-size: 16px;">💬</span>
-                            Demander un devis
-                        </a>
+                    <div class="product-features">
+                        <div class="feature-item"><span class="feature-icon">✓</span><span>Connectivité IoT</span></div>
+                        <div class="feature-item"><span class="feature-icon">✓</span><span>Maintenance prédictive</span></div>
+                        <div class="feature-item"><span class="feature-icon">✓</span><span>Sur-mesure</span></div>
+                    </div>
+                    
+                    <div class="card-actions">
+                        <a href="https://wa.me/33616144538?text=Bonjour%20LO-SEN,%20je%20souhaite%20un%20devis%20pour%20U3" class="btn-solution primary" target="_blank"><span class="btn-icon">💬</span>Demander un devis</a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <!-- CTA Section -->
-        <div class="solutions-cta" style="background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); border-radius: 30px; padding: 60px; text-align: center; border: 1px solid #e2e8f0;">
-            <div class="cta-content" style="max-width: 600px; margin: 0 auto;">
-                <h3 class="cta-title" style="font-size: 32px; font-weight: 800; color: #0f172a; margin-bottom: 16px;">Vous avez des questions ?</h3>
-                <p class="cta-subtitle" style="font-size: 18px; line-height: 1.6; color: #64748b; margin-bottom: 32px;">Nos experts vous accompagnent dans le choix de la solution idéale</p>
-                <div class="cta-buttons" style="display: flex; justify-content: center; flex-wrap: wrap;">
-                    <a href="https://wa.me/33612345678?text=Bonjour%20LO-SEN,%20je%20souhaite%20conseil%20pour%20choisir%20ma%20solution" 
-                       class="btn-cta primary" target="_blank" style="padding: 16px 32px; border-radius: 12px; font-size: 16px; font-weight: 600; text-decoration: none; border: none; cursor: pointer; transition: all 0.3s ease; display: flex; align-items: center; gap: 8px; background: linear-gradient(135deg, #3b82f6 0%, #2563eb 100%); color: white; box-shadow: 0 10px 30px rgba(59, 130, 246, 0.3);">
-                        <span class="btn-icon" style="font-size: 16px;">💬</span>
-                        Consulter un expert
-                    </a>
+        <div class="solutions-cta">
+            <div class="cta-content">
+                <h3 class="cta-title">Vous avez des questions ?</h3>
+                <p class="cta-subtitle">Nos experts vous accompagnent dans le choix de la solution idéale</p>
+                <div class="cta-buttons">
+                    <a href="https://wa.me/33616144538?text=Bonjour%20LO-SEN,%20je%20souhaite%20conseil%20pour%20choisir%20ma%20solution" class="btn-cta primary" target="_blank"><span class="btn-icon">💬</span>Consulter un expert</a>
                 </div>
             </div>
         </div>
@@ -736,7 +678,7 @@ require_once 'includes/header.php';
                 </div>
                 <p class="testimonial-text">"Depuis l'installation de LO-SEN, toute ma famille boit plus d'eau. Le goût est incroyable et je suis rassuré de savoir que nous buvons une eau parfaitement pure."</p>
                 <div class="testimonial-author">
-                    <img src="assets/images/avatar-marie.jpg" alt="Marie L.">
+                    <img src="assets/images/avatar-marie.svg" alt="Marie L.">
                     <div>
                         <div class="author-name">Marie L.</div>
                         <div class="author-location">Paris</div>
@@ -754,7 +696,7 @@ require_once 'includes/header.php';
                 </div>
                 <p class="testimonial-text">"En tant que restaurateur, la qualité de l'eau est cruciale. LO-SEN a transformé nos boissons et nos plats. Nos clients remarquent la différence !"</p>
                 <div class="testimonial-author">
-                    <img src="assets/images/avatar-jean.jpg" alt="Jean M.">
+                    <img src="assets/images/avatar-jean.svg" alt="Jean M.">
                     <div>
                         <div class="author-name">Jean M.</div>
                         <div class="author-location">Lyon</div>
@@ -772,7 +714,7 @@ require_once 'includes/header.php';
                 </div>
                 <p class="testimonial-text">"Installation professionnelle, service impeccable. L'équipe LO-SEN nous a accompagnés à chaque étape. Le rapport qualité/prix est excellent."</p>
                 <div class="testimonial-author">
-                    <img src="assets/images/avatar-sophie.jpg" alt="Sophie D.">
+                    <img src="assets/images/avatar-sophie.svg" alt="Sophie D.">
                     <div>
                         <div class="author-name">Sophie D.</div>
                         <div class="author-location">Bordeaux</div>
@@ -792,79 +734,45 @@ require_once 'includes/header.php';
     </div>
 </section>
 
-<!-- Demander un Devis Section -->
-<section class="devis" id="devis">
-    <div class="container">
-        <div class="section-header">
-            <h2 class="section-title">Demandez un Devis</h2>
-            <p class="section-subtitle">Notre expert vous contacte sous 24h pour une solution personnalisée</p>
+
+
+</main>
+
+<!-- Contact Section -->
+<section class="contact-section" id="contact">
+    <div class="contact-container">
+        <div class="contact-header">
+            <span class="contact-badge">📬 CONTACT</span>
+            <h2>Parlons de votre projet</h2>
+            <p>Une question ? Notre équipe est disponible pour vous accompagner</p>
         </div>
-        
-        <div class="devis-form-container reveal">
-            <form class="devis-form" id="devisForm" method="POST" action="contact-handler.php">
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="nom">Nom complet *</label>
-                        <input type="text" id="nom" name="nom" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="telephone">Téléphone *</label>
-                        <input type="tel" id="telephone" name="telephone" required>
-                    </div>
+        <div class="contact-grid">
+            <a href="tel:+33616144538" class="contact-card">
+                <div class="contact-card-visual">
+                    <img src="assets/icons/phone.svg" alt="">
                 </div>
-                
-                <div class="form-row">
-                    <div class="form-group">
-                        <label for="email">Email *</label>
-                        <input type="email" id="email" name="email" required>
-                    </div>
-                    <div class="form-group">
-                        <label for="projet">Type de projet</label>
-                        <select id="projet" name="projet">
-                            <option value="">Sélectionnez...</option>
-                            <option value="particulier">Particulier</option>
-                            <option value="professionnel">Professionnel</option>
-                            <option value="industrie">Industrie</option>
-                        </select>
-                    </div>
+                <h3>Téléphone</h3>
+                <p>+33 6 16 14 45 38</p>
+                <span class="contact-action">Appeler gratuitement →</span>
+            </a>
+            <a href="mailto:contact@lo-sen.fr" class="contact-card">
+                <div class="contact-card-visual">
+                    <img src="assets/icons/email.svg" alt="">
                 </div>
-                
-                <div class="form-group">
-                    <label for="besoin">Votre besoin * </label>
-                    <textarea id="besoin" name="besoin" rows="4" required 
-                              placeholder="Décrivez votre projet, le nombre de personnes, vos contraintes..."></textarea>
+                <h3>Email</h3>
+                <p>contact@lo-sen.fr</p>
+                <span class="contact-action">Envoyer un message →</span>
+            </a>
+            <a href="https://wa.me/33616144538?text=Bonjour%20LO-SEN" target="_blank" class="contact-card contact-card-wa">
+                <div class="contact-card-visual">
+                    <img src="assets/icons/whatsapp.svg" alt="">
                 </div>
-                
-                <div class="form-actions">
-                    <button type="submit" class="btn-primary">
-                        <img src="assets/icons/send.svg" alt="Envoyer">
-                        Envoyer ma demande
-                    </button>
-                    <p class="form-legal">* Champs obligatoires. Vos données sont protégées et ne seront jamais partagées.</p>
-                </div>
-            </form>
-            
-            <div class="devis-visual">
-                <img src="assets/images/devis-visual.png" alt="Expert LO-SEN">
-                <div class="devis-badges">
-                    <div class="badge">
-                        <img src="assets/icons/fast.svg" alt="Rapide">
-                        <span>Réponse sous 24h</span>
-                    </div>
-                    <div class="badge">
-                        <img src="assets/icons/free.svg" alt="Gratuit">
-                        <span>Devis gratuit</span>
-                    </div>
-                    <div class="badge">
-                        <img src="assets/icons/expert.svg" alt="Expert">
-                        <span>Conseil d'expert</span>
-                    </div>
-                </div>
-            </div>
+                <h3>WhatsApp</h3>
+                <p>Réponse sous 24h</p>
+                <span class="contact-action">Discuter maintenant →</span>
+            </a>
         </div>
     </div>
 </section>
-
-</main>
 
 <?php require_once 'includes/footer.php'; ?>

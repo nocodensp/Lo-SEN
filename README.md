@@ -60,7 +60,7 @@ Modifiez le fichier `contact-handler.php` :
 ```php
 // Remplacez avec vos véritables coordonnées
 $to_email = 'votre-email@lo-sen.fr';
-$whatsapp_number = '33612345678';
+$whatsapp_number = '33616144538';
 ```
 
 ### 3. Images

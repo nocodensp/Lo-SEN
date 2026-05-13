@@ -4,7 +4,7 @@
 
 // Configuration
 $to_email = 'contact@lo-sen.fr'; // Replace with actual email
-$whatsapp_number = '33612345678'; // Replace with actual WhatsApp number
+$whatsapp_number = '33616144538'; // Replace with actual WhatsApp number
 
 // Security headers
 header('X-Content-Type-Options: nosniff');

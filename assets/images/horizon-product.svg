@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none">
+  <defs>
+    <linearGradient id="h1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e2e8f0"/>
+      <stop offset="100%" stop-color="#cbd5e1"/>
+    </linearGradient>
+    <linearGradient id="h2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f4c75"/>
+      <stop offset="100%" stop-color="#00b4d8"/>
+    </linearGradient>
+    <linearGradient id="h3" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa"/>
+      <stop offset="100%" stop-color="#3b82f6"/>
+    </linearGradient>
+  </defs>
+  <!-- Base -->
+  <rect x="70" y="40" width="160" height="220" rx="20" fill="url(#h1)" stroke="#94a3b8" stroke-width="2"/>
+  <!-- Screen -->
+  <rect x="95" y="60" width="110" height="80" rx="12" fill="white" stroke="#e2e8f0"/>
+  <!-- Water level -->
+  <rect x="95" y="95" width="110" height="45" rx="0 0 12 12" fill="url(#h3)" opacity="0.3"/>
+  <rect x="95" y="105" width="110" height="35" rx="0 0 12 12" fill="url(#h3)" opacity="0.2"/>
+  <!-- Status dots -->
+  <circle cx="120" cy="80" r="6" fill="#10b981"/>
+  <circle cx="150" cy="80" r="6" fill="#10b981"/>
+  <circle cx="180" cy="80" r="6" fill="#10b981"/>
+  <!-- Water drop icon -->
+  <path d="M150 100c-4 6-8 11-8 14a8 8 0 0016 0c0-3-4-8-8-14z" fill="#3b82f6" opacity="0.6"/>
+  <!-- Bottom area -->
+  <rect x="80" y="155" width="140" height="15" rx="7" fill="#94a3b8"/>
+  <rect x="85" y="175" width="130" height="10" rx="5" fill="#cbd5e1"/>
+  <!-- Nozzle -->
+  <rect x="130" y="200" width="40" height="30" rx="5" fill="#94a3b8"/>
+  <rect x="140" y="230" width="20" height="15" rx="3" fill="#64748b"/>
+  <!-- Water flow -->
+  <path d="M145 245c-3 5-3 10 0 15" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
+  <path d="M155 245c3 5 3 10 0 15" stroke="#3b82f6" stroke-width="2" opacity="0.5"/>
+  <!-- Brand -->
+  <text x="150" y="275" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="600" fill="#475569">HORIZON</text>
+</svg>

@@ -74,7 +74,6 @@ document.addEventListener('DOMContentLoaded', function() {
     
     // Navbar scroll effect
     const navbar = document.querySelector('.navbar');
-    let lastScrollTop = 0;
     
     window.addEventListener('scroll', function() {
         const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -86,8 +85,6 @@ document.addEventListener('DOMContentLoaded', function() {
             navbar.style.background = 'rgba(255, 255, 255, 0.95)';
             navbar.style.boxShadow = 'none';
         }
-        
-        lastScrollTop = scrollTop;
     });
     
     // Counter Animation
@@ -447,7 +444,7 @@ function initPremiumInteractions() {
     }
     
     // Premium button ripple effect
-    const buttons = document.querySelectorAll('.btn-hero-primary, .btn-hero-secondary, .btn-whatsapp-premium');
+    const buttons = document.querySelectorAll('.btn-primary, .btn-secondary, .btn-whatsapp-premium');
     buttons.forEach(button => {
         button.addEventListener('click', function(e) {
             const ripple = document.createElement('span');
@@ -551,7 +548,7 @@ function initMagneticEffect() {
     if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
         return;
     }
-    const magneticButtons = document.querySelectorAll('.btn-hero-primary, .btn-whatsapp-premium');
+    const magneticButtons = document.querySelectorAll('.btn-primary, .btn-whatsapp-premium');
     
     magneticButtons.forEach(button => {
         button.addEventListener('mousemove', function(e) {
@@ -568,33 +565,7 @@ function initMagneticEffect() {
     });
 }
 
-// Enhanced intersection observer for better performance
-const enhancedObserverOptions = {
-    threshold: [0.1, 0.3, 0.6],
-    rootMargin: '0px 0px -50px 0px'
-};
-
-const enhancedObserver = new IntersectionObserver((entries) => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            const ratio = entry.intersectionRatio;
-            
-            if (ratio > 0.6) {
-                entry.target.classList.add('fully-visible');
-            }
-            
-            if (ratio > 0.3) {
-                entry.target.classList.add('partially-visible');
-            }
-            
-            entry.target.classList.add('active');
-        } else {
-            entry.target.classList.remove('fully-visible', 'partially-visible');
-        }
-    });
-}, enhancedObserverOptions);
-
-// Observe elements with enhanced animations
-document.querySelectorAll('.reveal, .hero-badge, .hero-title, .hero-subtitle, .hero-stats, .hero-actions').forEach(el => {
-    enhancedObserver.observe(el);
+// Observe hero elements with the main observer
+document.querySelectorAll('.hero-badge, .hero-title, .hero-subtitle, .hero-stats, .hero-actions').forEach(el => {
+    observer.observe(el);
 });
