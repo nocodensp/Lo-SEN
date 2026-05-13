@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- Background glow -->
+  <defs>
+    <radialGradient id="glassGlow">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#3b82f6;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:0.2" />
+      <stop offset="100%" style="stop-color:#1e40af;stop-opacity:0.3" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Glow background -->
+  <circle cx="100" cy="100" r="80" fill="url(#glassGlow)" />
+  
+  <!-- Glass -->
+  <g transform="translate(100, 100)">
+    <!-- Glass outline -->
+    <path d="M-25 -40 L-20 30 L20 30 L25 -40 Z" 
+          fill="none" stroke="#e2e8f0" stroke-width="2" opacity="0.8"/>
+    <path d="M-25 -40 Q0 -42 25 -40" 
+          fill="none" stroke="#e2e8f0" stroke-width="2" opacity="0.8"/>
+    
+    <!-- Water -->
+    <path d="M-20 15 L18 15 L20 30 L-20 30 Z" 
+          fill="url(#waterGrad)"/>
+    
+    <!-- Contaminant particles -->
+    <circle cx="-10" cy="20" r="1.5" fill="#ef4444" opacity="0.6"/>
+    <circle cx="5" cy="18" r="1" fill="#f59e0b" opacity="0.5"/>
+    <circle cx="-3" cy="25" r="1.2" fill="#8b5cf6" opacity="0.7"/>
+    <circle cx="12" cy="22" r="0.8" fill="#ef4444" opacity="0.4"/>
+  </g>
+</svg>

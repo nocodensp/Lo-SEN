@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <!-- Background glow -->
+  <defs>
+    <radialGradient id="systemGlow">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.15" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0" />
+    </radialGradient>
+    <linearGradient id="bottleGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#e0f2fe;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#bae6fd;stop-opacity:0.8" />
+    </linearGradient>
+    <linearGradient id="waterGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#0891b2;stop-opacity:0.5" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Glow background -->
+  <circle cx="200" cy="200" r="150" fill="url(#systemGlow)" />
+  
+  <!-- Premium water bottle -->
+  <g transform="translate(200, 200)">
+    <!-- Bottle body -->
+    <path d="M-40 -80 L-35 -40 L-35 40 L35 40 L35 -40 L40 -80 Z" 
+          fill="url(#bottleGrad)" stroke="#0284c7" stroke-width="2" opacity="0.9"/>
+    
+    <!-- Bottle cap -->
+    <rect x="-15" y="-90" width="30" height="15" rx="3" fill="#0284c7" opacity="0.8"/>
+    
+    <!-- Water inside -->
+    <path d="M-33 -20 L-30 35 L30 35 L33 -20 Z" 
+          fill="url(#waterGrad)"/>
+    
+    <!-- Filter system inside -->
+    <g transform="translate(0, -10)">
+      <!-- Filter layers -->
+      <rect x="-25" y="-15" width="50" height="4" fill="#fbbf24" opacity="0.7" rx="2"/>
+      <rect x="-25" y="-8" width="50" height="4" fill="#10b981" opacity="0.7" rx="2"/>
+      <rect x="-25" y="-1" width="50" height="4" fill="#3b82f6" opacity="0.7" rx="2"/>
+      <rect x="-25" y="6" width="50" height="4" fill="#8b5cf6" opacity="0.7" rx="2"/>
+    </g>
+    
+    <!-- Clean water drops coming out -->
+    <g transform="translate(60, -20)">
+      <circle cx="0" cy="0" r="3" fill="#06b6d4" opacity="0.8"/>
+      <circle cx="15" cy="-5" r="2" fill="#06b6d4" opacity="0.6"/>
+      <circle cx="25" cy="5" r="2.5" fill="#06b6d4" opacity="0.7"/>
+      <circle cx="35" cy="-8" r="1.5" fill="#06b6d4" opacity="0.5"/>
+    </g>
+    
+    <!-- LO-SEN logo on bottle -->
+    <text x="0" y="60" text-anchor="middle" fill="#0284c7" font-size="14" font-weight="bold" opacity="0.8">LO-SEN</text>
+  </g>
+  
+  <!-- Floating particles around -->
+  <circle cx="80" cy="100" r="2" fill="#06b6d4" opacity="0.4"/>
+  <circle cx="320" cy="120" r="1.5" fill="#06b6d4" opacity="0.3"/>
+  <circle cx="100" cy="300" r="2.5" fill="#06b6d4" opacity="0.5"/>
+  <circle cx="300" cy="280" r="2" fill="#06b6d4" opacity="0.4"/>
+  <circle cx="70" cy="200" r="1.8" fill="#06b6d4" opacity="0.3"/>
+  <circle cx="330" cy="200" r="2.2" fill="#06b6d4" opacity="0.4"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 60" width="200" height="60">
+  <defs>
+    <linearGradient id="logoGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f4c75;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00b4d8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Water drop icon -->
+  <path d="M30 15 C30 8, 38 2, 38 8 C38 2, 46 8, 46 15 C46 22, 38 28, 38 28 C38 28, 30 22, 30 15 Z" 
+        fill="url(#logoGradient)" opacity="0.9"/>
+  
+  <!-- LO-SEN text -->
+  <text x="60" y="38" font-family="Arial, sans-serif" font-size="24" font-weight="700" fill="#0f4c75">
+    LO-SEN
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="60" y="50" font-family="Arial, sans-serif" font-size="8" font-weight="400" fill="#00b4d8" letter-spacing="2">
+    PURE WATER
+  </text>
+</svg>

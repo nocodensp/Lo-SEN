@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" fill="none">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="pfasGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:0.05" />
+    </linearGradient>
+    <linearGradient id="chemGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#f59e0b;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#d97706;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="150" cy="150" r="120" fill="url(#pfasGrad)" />
+  
+  <!-- Chemical structure visualization -->
+  <g transform="translate(150, 150)">
+    <!-- Central carbon chain -->
+    <line x1="-60" y1="0" x2="-40" y2="0" stroke="#f59e0b" stroke-width="3"/>
+    <line x1="-40" y1="0" x2="-20" y2="0" stroke="#f59e0b" stroke-width="3"/>
+    <line x1="-20" y1="0" x2="0" y2="0" stroke="#f59e0b" stroke-width="3"/>
+    <line x1="0" y1="0" x2="20" y2="0" stroke="#f59e0b" stroke-width="3"/>
+    <line x1="20" y1="0" x2="40" y2="0" stroke="#f59e0b" stroke-width="3"/>
+    <line x1="40" y1="0" x2="60" y2="0" stroke="#f59e0b" stroke-width="3"/>
+    
+    <!-- Carbon atoms -->
+    <circle cx="-60" cy="0" r="4" fill="url(#chemGrad)"/>
+    <circle cx="-40" cy="0" r="4" fill="url(#chemGrad)"/>
+    <circle cx="-20" cy="0" r="4" fill="url(#chemGrad)"/>
+    <circle cx="0" cy="0" r="4" fill="url(#chemGrad)"/>
+    <circle cx="20" cy="0" r="4" fill="url(#chemGrad)"/>
+    <circle cx="40" cy="0" r="4" fill="url(#chemGrad)"/>
+    <circle cx="60" cy="0" r="4" fill="url(#chemGrad)"/>
+    
+    <!-- Fluorine atoms (F) -->
+    <circle cx="-60" cy="-15" r="3" fill="#3b82f6"/>
+    <text x="-60" y="-20" text-anchor="middle" fill="#3b82f6" font-size="8" font-weight="bold">F</text>
+    <line x1="-60" y1="0" x2="-60" y2="-12" stroke="#3b82f6" stroke-width="2"/>
+    
+    <circle cx="-40" cy="15" r="3" fill="#3b82f6"/>
+    <text x="-40" y="22" text-anchor="middle" fill="#3b82f6" font-size="8" font-weight="bold">F</text>
+    <line x1="-40" y1="0" x2="-40" y2="12" stroke="#3b82f6" stroke-width="2"/>
+    
+    <circle cx="-20" cy="-15" r="3" fill="#3b82f6"/>
+    <text x="-20" y="-20" text-anchor="middle" fill="#3b82f6" font-size="8" font-weight="bold">F</text>
+    <line x1="-20" y1="0" x2="-20" y2="-12" stroke="#3b82f6" stroke-width="2"/>
+    
+    <circle cx="0" cy="15" r="3" fill="#3b82f6"/>
+    <text x="0" y="22" text-anchor="middle" fill="#3b82f6" font-size="8" font-weight="bold">F</text>
+    <line x1="0" y1="0" x2="0" y2="12" stroke="#3b82f6" stroke-width="2"/>
+    
+    <circle cx="20" cy="-15" r="3" fill="#3b82f6"/>
+    <text x="20" y="-20" text-anchor="middle" fill="#3b82f6" font-size="8" font-weight="bold">F</text>
+    <line x1="20" y1="0" x2="20" y2="-12" stroke="#3b82f6" stroke-width="2"/>
+    
+    <circle cx="40" cy="15" r="3" fill="#3b82f6"/>
+    <text x="40" y="22" text-anchor="middle" fill="#3b82f6" font-size="8" font-weight="bold">F</text>
+    <line x1="40" y1="0" x2="40" y2="12" stroke="#3b82f6" stroke-width="2"/>
+    
+    <circle cx="60" cy="-15" r="3" fill="#3b82f6"/>
+    <text x="60" y="-20" text-anchor="middle" fill="#3b82f6" font-size="8" font-weight="bold">F</text>
+    <line x1="60" y1="0" x2="60" y2="-12" stroke="#3b82f6" stroke-width="2"/>
+    
+    <!-- PFAS label -->
+    <text x="0" y="50" text-anchor="middle" fill="#d97706" font-size="14" font-weight="bold">PFAS</text>
+    <text x="0" y="65" text-anchor="middle" fill="#d97706" font-size="8" opacity="0.8">Forever Chemicals</text>
+    
+    <!-- Infinity symbol for "forever" -->
+    <g transform="translate(0, -50)">
+      <path d="M-15 0 Q-7.5 -10 0 0 Q7.5 10 15 0" 
+            stroke="#f59e0b" stroke-width="2" fill="none"/>
+      <path d="M-15 5 Q-7.5 -5 0 5 Q7.5 15 15 5" 
+            stroke="#f59e0b" stroke-width="2" fill="none"/>
+    </g>
+  </g>
+  
+  <!-- Warning radiation symbols -->
+  <g transform="translate(150, 150)" opacity="0.3">
+    <path d="M0 -70 L5 -55 L0 -40 L-5 -55 Z" fill="#f59e0b"/>
+    <path d="M60 -35 L50 -30 L45 -40 L55 -45 Z" fill="#f59e0b"/>
+    <path d="M60 35 L50 30 L45 40 L55 45 Z" fill="#f59e0b"/>
+    <path d="M0 70 L5 55 L0 40 L-5 55 Z" fill="#f59e0b"/>
+    <path d="M-60 35 L-50 30 L-45 40 L-55 45 Z" fill="#f59e0b"/>
+    <path d="M-60 -35 L-50 -30 L-45 -40 L-55 -45 Z" fill="#f59e0b"/>
+  </g>
+  
+  <!-- Floating chemical particles -->
+  <circle cx="80" cy="80" r="2" fill="#f59e0b" opacity="0.4"/>
+  <circle cx="220" cy="90" r="1.5" fill="#f59e0b" opacity="0.3"/>
+  <circle cx="90" cy="220" r="2" fill="#f59e0b" opacity="0.5"/>
+  <circle cx="210" cy="210" r="1.8" fill="#f59e0b" opacity="0.4"/>
+</svg>

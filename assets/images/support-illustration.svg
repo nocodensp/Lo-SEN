@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 300" fill="none">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="supportGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.1" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:0.05" />
+    </linearGradient>
+    <linearGradient id="headsetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#4f46e5;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="200" cy="150" r="120" fill="url(#supportGrad)" />
+  
+  <!-- Sound waves -->
+  <g opacity="0.3">
+    <path d="M250 150 Q270 140 270 150 Q270 160 250 150" stroke="#6366f1" stroke-width="2" fill="none"/>
+    <path d="M260 150 Q290 130 290 150 Q290 170 260 150" stroke="#6366f1" stroke-width="2" fill="none"/>
+    <path d="M150 150 Q130 140 130 150 Q130 160 150 150" stroke="#6366f1" stroke-width="2" fill="none"/>
+    <path d="M140 150 Q110 130 110 150 Q110 170 140 150" stroke="#6366f1" stroke-width="2" fill="none"/>
+  </g>
+  
+  <!-- Central headset/support person -->
+  <g transform="translate(200, 150)">
+    <!-- Headset band -->
+    <path d="M-30 -20 Q-30 -35 -15 -35 L15 -35 Q30 -35 30 -20" 
+          stroke="url(#headsetGrad)" stroke-width="3" fill="none"/>
+    
+    <!-- Headset earpieces -->
+    <ellipse cx="-30" cy="-15" rx="8" ry="12" fill="url(#headsetGrad)"/>
+    <ellipse cx="30" cy="-15" rx="8" ry="12" fill="url(#headsetGrad)"/>
+    
+    <!-- Microphone -->
+    <path d="M30 -15 Q40 -10 42 0 Q40 5 30 0" 
+          stroke="#6366f1" stroke-width="2" fill="url(#headsetGrad)"/>
+    
+    <!-- Person head (simplified) -->
+    <circle cx="0" cy="-10" r="18" fill="white" stroke="#6366f1" stroke-width="2"/>
+    
+    <!-- Face -->
+    <circle cx="-6" cy="-12" r="2" fill="#6366f1"/> <!-- Left eye -->
+    <circle cx="6" cy="-12" r="2" fill="#6366f1"/> <!-- Right eye -->
+    <path d="M-8 -2 Q0 3 8 -2" stroke="#6366f1" stroke-width="1.5" fill="none"/> <!-- Smile -->
+    
+    <!-- Body/shoulders -->
+    <path d="M-20 8 Q-20 15 -15 20 L15 20 Q20 15 20 8" 
+          fill="white" stroke="#6366f1" stroke-width="2"/>
+    
+    <!-- Chat bubbles -->
+    <g transform="translate(-50, -40)">
+      <ellipse cx="0" cy="0" rx="25" ry="15" fill="white" stroke="#6366f1" stroke-width="1.5" opacity="0.8"/>
+      <path d="M-15 10 L-10 18 L-5 10" fill="white" stroke="#6366f1" stroke-width="1.5" opacity="0.8"/>
+      <circle cx="-8" cy="0" r="1" fill="#6366f1"/>
+      <circle cx="0" cy="0" r="1" fill="#6366f1"/>
+      <circle cx="8" cy="0" r="1" fill="#6366f1"/>
+    </g>
+    
+    <g transform="translate(50, -35)">
+      <ellipse cx="0" cy="0" rx="20" ry="12" fill="white" stroke="#6366f1" stroke-width="1.5" opacity="0.8"/>
+      <path d="M10 8 L15 15 L20 8" fill="white" stroke="#6366f1" stroke-width="1.5" opacity="0.8"/>
+      <circle cx="-5" cy="0" r="1" fill="#6366f1"/>
+      <circle cx="5" cy="0" r="1" fill="#6366f1"/>
+    </g>
+  </g>
+  
+  <!-- Floating support particles -->
+  <circle cx="90" cy="100" r="2" fill="#6366f1" opacity="0.4"/>
+  <circle cx="310" cy="110" r="1.5" fill="#6366f1" opacity="0.3"/>
+  <circle cx="100" cy="190" r="2" fill="#6366f1" opacity="0.5"/>
+  <circle cx="300" cy="180" r="1.8" fill="#6366f1" opacity="0.4"/>
+  
+  <!-- Check marks for quality support -->
+  <g transform="translate(120, 200)" opacity="0.6">
+    <path d="M0 0 L3 3 L8 -2" stroke="#6366f1" stroke-width="2" fill="none" stroke-linecap="round"/>
+  </g>
+  
+  <g transform="translate(270, 200)" opacity="0.5">
+    <path d="M0 0 L2 2 L6 -2" stroke="#6366f1" stroke-width="1.5" fill="none" stroke-linecap="round"/>
+  </g>
+</svg>
